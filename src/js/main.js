@@ -1,3 +1,8 @@
+$('.section__contact').css('opacity', 0);
+   $(window).load(function() {
+      $('.section__contact').css('opacity', 1);
+});
+
 $(".main").onepage_scroll({
    sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
    easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
@@ -14,3 +19,4 @@ $(".main").onepage_scroll({
                                     // the browser's width is less than 600, the fallback will kick in.
    direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
 });
+

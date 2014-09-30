@@ -361,11 +361,25 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 /* Smartphone landscape */
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) and (orientation: landscape) {
   .section__contact--container {
     width: 50% !important;
     height: 100% !important;
     font-size: 0.75em !important;
+  }
+
+  iframe {
+    top: 0 !important;
+    left: 50% !important;
+    width: 50% !important;
+    height: 100% !important;
+  }
+}
+/* Small tablets landscape */
+@media only screen and (min-width: 604px) and (orientation: landscape) {
+  .section__contact--container {
+    width: 50% !important;
+    height: 100% !important;
   }
 
   iframe {
