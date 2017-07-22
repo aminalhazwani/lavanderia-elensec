@@ -1,4 +1,3 @@
-lavanderia-elensec
-==================
+# lavanderiaelensec.it
 
-One pager for the laundry shop of my mom
+One pager for the laundry shop of my mother.
