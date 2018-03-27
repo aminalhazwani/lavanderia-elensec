@@ -6,34 +6,127 @@
     <title>Lavanderia Artigiana Elensec Daniela di Gaballo Daniela</title>
     <meta name="description" content="Servizio di lavaggio a secco e acqua. Siamo specializzati in lavaggio di abiti da sposa.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
     <style>
-      .bg-kournikova { background-color: #fde976; }
-      .bg-half-baked { background-color: #7fc3d0; }
-      .montserrat { font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
-      @media screen and (min-width: 60em) {
-        .w6-l { width: 32rem; }
-        .h6-l { height: 32rem; }
+      .arial { font-family: "Arial", sans-serif; }
+      .grid { 
+        display: grid; 
+        grid: repeat(4, auto) / auto-flow 50%;
+      }
+      @media screen and (min-width: 30em) {
+        .grid { 
+          grid-template-rows: repeat(2, auto);
+          grid-auto-columns: 25%;
+        }
       }
     </style>
   </head>
-  <body class="montserrat near-black tracked-ns">
-    <section class="bg-half-baked">
-      <img class="db w5 h5 w6-l h6-l center" src="images/logo.svg">
+  <body class="mw7 center arial">
+    <section class="pv4 ph2">
+      <h1 class="mt0 mb2 f3 tc">Lavanderia Artigiana Elensec Daniela</h1>
+      <p class="ma0 tc">di Gaballo Daniela</p>
     </section>
-    <section class="bg-kournikova">
-      <div class="tc pv5 ph3 pv6-l">
-        <h2 class="fw6 mt0 mb2">Vieni a trovarci</h2>
-        <p class="mt0 mb2">via Mameli 30</p>
-        <p class="mt0 mb4">46034 Borgo Virgilio (MN)</p>
-        <h2 class="fw6 mt0 mb2">Chiamaci</h2>
-        <p class="mt0 mb4">Tel. 0376/448068</p>
-        <h2 class="fw6 mt0 mb2">Scrivici una mail</h2>
-        <a class="near-black" href="mailto:daniela.lavanderina@gmail.com">daniela.lavanderina@gmail.com</a>
+    <section class="pv4 ph2">
+      <h3 class="mt0 tc tracked">I NOSTRI SERVIZI</h3>
+      <div class="grid">
+        <div>
+          <img class="db w4 center" src="images/lavaggio-secco.png" alt="">
+          <p class="tc">Lavaggio a secco</p>
+        </div>
+        <div>
+          <img class="db w4 center" src="images/lavaggio-acqua.png" alt="">
+          <p class="tc">Lavaggio ad acqua</p>
+        </div>
+        <div>
+          <img class="db w4 center" src="images/stiro.png" alt="">
+          <p class="tc">Stiratura</p>
+        </div>
+        <div>
+          <img class="db w4 center" src="images/pelli.png" alt="">
+          <p class="tc">Pelli</p>
+        </div>
+        <div>
+          <div class="w4 h4 center bg-gray"></div>
+          <p class="tc">Coperte e piumoni</p>
+        </div>
+        <div>
+          <div class="w4 h4 center bg-gray"></div>
+          <p class="tc">Tappeti</p>
+        </div>
+        <div>
+          <div class="w4 h4 center bg-gray"></div>
+          <p class="tc">Abiti da sposa</p>
+        </div>
+        <div>
+          <img class="db w4 center" src="images/sartoria.png" alt="">
+          <p class="tc">Sartoria</p>
+        </div>
       </div>
-      <iframe class="db w-100 vh-50" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2815.572073665061!2d10.785372999999998!3d45.114742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781d4eea0bc94c5%3A0xb5d767a956772ed2!2sLavanderia+Artigiana+Elensec+Daniela!5e0!3m2!1sit!2sit!4v1420818601287" frameborder="0" style="border:0"></iframe>
+    </section>
+    <section class="pv4 ph2">
+      <h3 class="mt0 tc tracked">COME CONTATTARCI</h3>
+      <div class="cf">
+        <div class="fl-ns w-50-ns">
+          <p class="tc">Telefono<br>0376 44 80 68</p>
+        </div>
+        <div class="fl-ns w-50-ns">
+          <p class="tc">Email<br>daniela.lavanderina@gmail.com</p>
+        </div>
+      </div>
+    </section>
+    <section class="pv4 ph2">
+      <h3 class="mt0 tc tracked">LASCIATECI UNA RECENSIONE</h3>
+      <div class="cf">
+        <div class="fl-ns w-50-ns">
+          <p class="tc">Lascia una recensione su Google</p>
+        </div>
+        <div class="fl-ns w-50-ns">
+          <p class="tc">Like alla pagina Facebook</p>
+        </div>
+      </div>
+    </section>
+    <section class="pv4 ph2">
+      <h3 class="mt0 tc tracked">PAGAMENTI ACCETTATI</h3>
+      <p class="tc">Accettiamo pagamenti in contanti, bancomat e carta di credito</p>
+    </section>
+    <section class="pv4 ph2">
+      <h3 class="mt0 tc tracked">DOVE TROVARCI</h3>
+      <address class="fs-normal tc mb3">
+        via Mameli 30<br>
+        46034 Cerese di Borgo Virgilio<br>
+        Mantova
+      </address>
+      <iframe class="db w-100 vh-50" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2815.572073665061!2d10.785372999999998!3d45.114742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781d4eea0bc94c5%3A0xb5d767a956772ed2!2sLavanderia+Artigiana+Elensec+Daniela!5e0!3m2!1sit!2sit!4v1420818601287" style="border:0" frameborder="0"></iframe>
+    </section>
+    <section class="pv4 ph2">
+      <h3 class="mt0 tc tracked">PRODOTTI AL DETTAGLIO</h3>
+      <ul>
+        <li>Detersivi alla spina</li>
+        <li>Deodoranti per armadi e cassetti</li>
+        <li>Igenizzanti e smacchiatori</li>
+        <li>Idee regalo</li>
+      </ul>
+    </section>
+    <section class="pv4 ph2">
+      <h3 class="mt0 tc tracked">LA NOSTRA STORIA</h3>
+      <p>Dal 1991</p>
+    </section>
+    <section class="pv4 ph2">
+      <h3 class="mt0 tc tracked">ORARI DI APERTURA</h3>
+      <table class="collapse ba br2 b--black-10 pa2">
+        <tbody>
+          <tr class="striped--light-gray">
+            <td class="pa2">Lun–Ven</td>
+            <td class="pa2">8:30–12:30</td>
+            <td class="pa2">16:00–19:30</td>
+          </tr>
+          <tr class="striped--light-gray">
+            <td class="pa2">Sabato</td>
+            <td class="pa2">8:30–12:30</td>
+            <td class="pa2"></td>
+          </tr>
+        </tbody>
+      </table>
     </section>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
